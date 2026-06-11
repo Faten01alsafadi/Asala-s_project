@@ -11,6 +11,7 @@ import Button from "../../components/Button/Button"
                 <li><a href="">home</a></li>
                  <li><a href="">about</a></li>
                   <li><a href="">contact</a></li>
+                  <li><a href="">contact</a></li>
             </ul>
            <Button title="Sign up" className="navBtn"/>
         </div>
