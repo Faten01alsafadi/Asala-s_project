@@ -1,12 +1,13 @@
 
 import style from './Button.module.css'
-
-function Button() {
-  return (
+   
+function Button({title, className}) {
+   
+  return ( 
     <div>
-      <button className={style.btn}>click me</button>
+      <button className={style[className] }>{title}</button>
     </div>
   )
-}
+}   
 
 export default Button

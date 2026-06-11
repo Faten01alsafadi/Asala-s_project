@@ -1,5 +1,23 @@
 .btn{
-    background-color: aqua;
+    background-color: #e7c4a3;
     width: 100px;
-    height: 100px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+}
+.navBtn{
+    background-color: #f37703;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+}
+.heroBtn{
+    background-color: #0ff303;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
 }

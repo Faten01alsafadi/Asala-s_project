@@ -1,12 +1,18 @@
-import { useState } from 'react'
+
 import './App.css'
+import Button from './components/Button/Button'
+import Hero from './sections/Hero/Hero'
+import Nav from './sections/Nav/Nav'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <button></button>
+    <Nav/>
+  <Button/>
+  <Hero/>
+
     </>
   )
 }

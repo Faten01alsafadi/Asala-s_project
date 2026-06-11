@@ -1,0 +1,25 @@
+.nav{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: #605c5c;
+    padding: 10px 30px;
+}
+.navImg{
+    width: 200px;
+    height: 100px;
+}
+.navList{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+}
+.navList li{
+    
+    font-size: 20px;
+    font-weight: bold;
+}
+.navList li a{
+   color: white;
+text-decoration: none;
+}
