@@ -12,7 +12,7 @@ function Hero() {
       <Button title="Get Started" className="heroBtn" />
       <CountBtn setCount={setCount} count={count}/>
     </div>
-  )
+  );
 }
 
-export default Hero
+export default Hero;
